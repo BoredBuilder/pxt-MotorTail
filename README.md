@@ -1,4 +1,4 @@
 # pxt-MotorTail
 
 BoredBuilder
-![BBLogo](images/
+![BBLogo](images/logo.jpg)
