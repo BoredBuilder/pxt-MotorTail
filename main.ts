@@ -16,6 +16,13 @@ enum Servo {
     S2 = 0x3,
 }
 
+enum Dir {
+    //% block="Forward"
+    forward = 0x1,
+    //% block="Backward"
+    backward = 0x2,
+}
+
 let PWMA = AnalogPin.P16;
 let AIN1 = DigitalPin.P14;
 let AIN2 = DigitalPin.P15;
@@ -25,3 +32,14 @@ let BIN2 = DigitalPin.P12;
 let S0_PIN = AnalogPin.P0;
 let S1_PIN = AnalogPin.P1;
 let S2_PIN = AnalogPin.P2;
+
+//% weight 20% color=#87CEEB icon="\uf1e3"
+namespace MotorTail {
+    /**
+	 * Motor Run
+	 * @param speed [0-16] speed of Motor; eg: 10, 0, 16
+     * @param direction 
+	*/
+    
+    
+    
