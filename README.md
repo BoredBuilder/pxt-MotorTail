@@ -2,7 +2,6 @@
 ## Intro
 * [Introduction](#introduction)
 * [Inspiration](#inspritation)
-* [Simple Usecase](#simple-usecase)
 * [Inputs](#inputs)
 ## Programming
 * [MakeCode Commands](#makecode-commands)
