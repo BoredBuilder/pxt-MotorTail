@@ -1,25 +1,19 @@
-# pxt-MotorTail
-
-BoredBuilder
-
-![BBLogo](images/logo.jpg)
-
 # MotorTail Documentation
 ## Intro
-* Introduction
-* Inspiration
-* Simple Usecase
-* Inputs
+* [Introduction](#introduction)
+* [Inspiration](#inspritation)
+* [Simple Usecase](#simple-usecase)
+* [Inputs](#inputs)
 ## Programming
-* MakeCode Commands
-* Driving DC Motor
-* Driving Stepper Motor
-* Driving Servo Motor
+* [MakeCode Commands](#makecode-commands)
+* [Driving DC Motor](#driving-dc-motor)
+* [Driving Stepper Motor](#driving-stepper-motor)
+* [Driving Servo Motor](#driving-servo-motors)
 ## Design Desicions
-* PCB Design
-* RPP (Reverse Polarity Protection)
-* How RPP
-* Feedback
+* [PCB Design](#pcb-design)
+* [RPP (Reverse Polarity Protection)](#reverse-polarity-protection-rpp)
+* [How RPP](#how)
+* [Feedback](#feedback)
 
 ![Image of the MotorTail](images/CoverView.jpg)
 
@@ -65,3 +59,9 @@ This RRP (Reverse Polarity Protection) works by two source tied P-Channel MOSFET
 
 ## Feedback 
 Please create issues or leave comments in the places that we have posted the design so we can improve it for the future.
+
+# pxt-MotorTail
+
+BoredBuilder
+
+![BBLogo](images/logo.jpg)
