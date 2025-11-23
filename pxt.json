@@ -1,6 +1,7 @@
 {
     "name": "pxt-MotorTail",
-    "description": "",
+    "description": "BoredBuilder",
+    "License:": "MIT",
     "dependencies": {
         "core": "*",
         "radio": "*",
