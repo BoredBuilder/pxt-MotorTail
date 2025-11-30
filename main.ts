@@ -49,7 +49,7 @@ namespace MotorTail {
     export function MotorRun(m: Motor, index: Dir, speed: number): void {
         speed = speed * 64 - 1; // map 0 to 1023
 
-        if (m == Motor.A) {
+        if (m == Motor.dc1) {
             pins.analogWritePin(PWMA, speed)
             if (index == Dir.forward) {
                 pins.digitalWritePin(AIN1, 0)
@@ -74,7 +74,7 @@ namespace MotorTail {
     //% block="Motor %Motor| Stop"
     //% weight=90
     export function MotorStop(m: Motor): void {
-        if (m == Motor.A)
+        if (m == Motor.dc1)
             pins.analogWritePin(PWMA, 0)
         else
             pins.analogWritePin(PWMB, 0)
